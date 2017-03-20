@@ -30,11 +30,11 @@ const datas = [{
     }
 }];
 
-/*ReactDOM.render(
+ReactDOM.render(
   <App datas={datas}/>,
   document.getElementById('root')
-);*/
-ReactDOM.render(
+);
+/*ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <Route path="/search" component={FormView}/>
@@ -44,4 +44,4 @@ ReactDOM.render(
   document.getElementById('root')
 
   
-);
+);*/
